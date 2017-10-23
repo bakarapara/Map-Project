@@ -35,7 +35,7 @@ var ViewModel = function () {
   self.initialLocations = function() {
     initialLocations.forEach(function(locationItem) {
       self.locationsList().push( new Location(locationItem));
-    })
+    });
   };
 
   self.initMap();
@@ -60,7 +60,7 @@ var ViewModel = function () {
       }
     }
   });
-}
+};
 
   var Location = function (data) {
 
@@ -101,7 +101,7 @@ var ViewModel = function () {
       }).fail(function() {
           console.log('Error!');
           infoWindow.setContent('Cant fetch information. Check your connection');
-          alert('Looks like you are offline. Check your connection and try again.')
+          alert('Looks like you are offline. Check your connection and try again.');
 
       });
   		infoWindow.open(map, marker);
@@ -123,7 +123,7 @@ var ViewModel = function () {
       self.infoWindow();
       self.bounce();
       self.pan();
-    }
+    };
 
     marker.addListener('click', function () {
       self.showInfo();
