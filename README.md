@@ -2,9 +2,12 @@
 
 This is the Udacity Neighborhood Map Project.
 
-## See online
+## How to use it?
 
-Click [here](https://rakhmanovr.github.io/Map-Project/) to see live version.
+1. Download files
+2. Unzip
+3. Open index.html in browser
+4. Or click [here](https://rakhmanovr.github.io/Map-Project/) to see live version.
 
 ## What i used?
 
