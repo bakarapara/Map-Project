@@ -95,7 +95,7 @@ var ViewModel = function () {
       }).done(function(response) {
           console.log('Request done!');
           var extract = response.query.pages[Object.keys(response.query.pages)[0]].extract;
-          var contentString = '<div>' + '<h2 class="marker-title">' + data.title + '</h2>' + extract + '<p>' + '<a href="' + readMore + '" target="_blank"><b>Read more on Wikipedia</b></a></div>';
+          var contentString = '<div>' + '<h2>' + data.title + '</h2>' + extract + '<p>' + '<a href="' + readMore + '" target="_blank"><b>Read more on Wikipedia</b></a></div>';
           infoWindow.setContent(contentString);
 
       }).fail(function() {
