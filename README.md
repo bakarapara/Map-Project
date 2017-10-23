@@ -17,4 +17,4 @@ This is the Udacity Neighborhood Map Project.
 4. Wikipedia API to get some information about locations
 5. About 20 cups of tea and coffee.
 
-**Have fun with exploring!**
+**Have fun exploring!**
