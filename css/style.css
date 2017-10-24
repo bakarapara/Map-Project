@@ -97,6 +97,8 @@ ul {
 
   .header-menu {
     display: inline-block;
+    width: 30px;
+    height: 30px;
     position: absolute;
     left: 0;
     padding-left: 85%;
@@ -114,8 +116,8 @@ ul {
     width: 100%;
     background-color: #a4cdfd;
     position: absolute;
-    -webkit-transform: translate(-549px, 0);
-    transform: translate(-549px, 0);
+    -webkit-transform: translate(-579px, 0);
+    transform: translate(-579px, 0);
     transition: transform 0.3s ease;
   }
 
