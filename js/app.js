@@ -100,8 +100,7 @@ var ViewModel = function () {
 
       }).fail(function() {
           console.log('Error!');
-          infoWindow.setContent('Cant fetch information. Check your connection');
-          alert('Looks like you are offline. Check your connection and try again.');
+          infoWindow.setContent('<p><b>Looks like you went offline.</b></p><p>Cant fetch information. Check your connection</p>');
 
       });
   		infoWindow.open(map, marker);

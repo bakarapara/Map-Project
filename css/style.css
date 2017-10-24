@@ -39,6 +39,14 @@ ul {
   position: absolute;
   left: 350px;
   right: 0px;
+  color: black;
+  text-align: center;
+  background-color: black;
+}
+
+.error-message {
+  padding-top: 75px;
+  color: #a4cdfd;
 }
 
 .side-box {
@@ -50,6 +58,7 @@ ul {
 .header-text {
   font-size: 2em;
   color: black;
+  margin-bottom: 120px;
 }
 
 .search-box {
@@ -60,7 +69,6 @@ ul {
 
 .locations-list {
   color: black;
-  /*list-style: none;*/
   border-bottom: 1px white solid;
   line-height: 40px;
   font-size: 0.8em;
